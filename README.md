@@ -148,11 +148,8 @@ snowflake-analytics/
 
 ## 📧 Contact
 
-**Sajeevan Iziajee**
-- 📧 Email: iziajee@gmail.com
-- 💼 LinkedIn: [Your LinkedIn Profile]
+**Sajeevan**
 - 🔗 GitHub: [github.com/Sajeevan11](https://github.com/Sajeevan11)
-
 ---
 
 ## 🔗 Related Projects
