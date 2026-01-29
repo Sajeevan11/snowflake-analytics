@@ -75,13 +75,26 @@ ORDER BY avg_monetary DESC;
 
 /*
 ============================================
-RÉSULTATS ATTENDUS
+RÉSULTATS (TPCH - B2B Dataset)
 ============================================
-- Champions : <1%, CLV très élevé
-- Loyal : ~5%, fréquence haute
-- Big Spenders : ~15-20%, panier élevé
-- At Risk : ~3%, inactifs
-- Lost : ~40%, jamais revenus
-- Promising : ~15%, upsell opportunity
+- Champions : ~20%, très nombreux (marché B2B)
+- Loyal Customers : ~18%, base fidèle importante
+- At Risk : ~18%, segment critique à réactiver
+- Lost : ~22%, churned mais représentent 34% du CA
+- Others : ~14%, segment moyen
+- Promising : ~7%, upsell opportunity
+- Big Spenders : ~1%, micro-segment premium
+
+INSIGHT MAJEUR :
+Dans un contexte B2B (TPCH), les clients "Lost" 
+représentent 34% du CA car ce sont souvent 
+d'anciens gros contrats. Contrairement au B2C 
+où Champions dominent le CA.
+
+ACTIONS RECOMMANDÉES :
+1. Réactivation "Lost" (34% CA potentiel)
+2. Rétention "At Risk" (18% clients, 13% CA)
+3. Fidélisation "Loyal" (18% clients stables)
+4. Upsell "Promising" (7% clients, bas panier)
 ============================================
 */
